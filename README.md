@@ -1,12 +1,14 @@
 # Production_Management
 
+This program was written in Python 3.5.2 for windows environments. You MUST enter your own SQL database information in the fields with 7 
+astersisks, or it won't do you much good to run any of these.
+
 High level overview:
 
-These programs are meant to work together to form the skeleton of a production management system in a windows environment.
-The Label_Program prints a label that is meant to be used as a production ticket. It should display all the information the
-production line needs to produce the part. Reporter_Program is meant to report results anywhere on the production line from
-a program that outputs .csv files. Embosser_Program takes the information from the barcode on the label that the Label_Program
-outputs and embosses that onto a plate.
+These programs are meant to work together to form the skeleton of a production management system. The Label_Program prints a label that is 
+meant to be used as a production ticket. It should display all the information the production line needs to produce the part. 
+Reporter_Program is meant to report results anywhere on the production line from a program that outputs .csv files. Embosser_Program takes 
+the information from the barcode on the label that the Label_Program outputs and embosses that onto a plate.
 
 Slightly lower level overview: 
 
